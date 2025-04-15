@@ -32,7 +32,7 @@ export default function FindPerfecttrip() {
 
               <button
                 type="button"
-                className="text-white bg-[#7F5539] border border-[#7F5539] focus:outline-none   font-medium rounded-lg text-[18px] px-8 py-3.5 me-2 mt-4"
+                className="text-white bg-[#7F5539] border border-[#7F5539] focus:outline-none   font-medium rounded-lg lg:text-[18px] lg:px-8 lg:py-3.5 mb-2 px-4 py-2 text-[14px] mt-4"
               >
                 Sign Up!
               </button>

@@ -100,7 +100,7 @@ export default function PopularAdventures() {
           <div className="flex flex-wrap gap-1 mt-3 px-4 justify-center">
             <button
               type="button"
-              className="text-white bg-[#7F5539] border border-[#7F5539] focus:outline-none   font-medium rounded-lg text-[18px] px-8 py-3.5 me-2 mb-2"
+              className="text-white bg-[#7F5539] border border-[#7F5539] focus:outline-none   font-medium rounded-lg lg:text-[18px] lg:px-8 lg:py-3.5 mb-2 px-4 py-2 text-[14px]"
             >
               view all
             </button>

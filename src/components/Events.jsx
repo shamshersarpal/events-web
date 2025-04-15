@@ -58,7 +58,7 @@ export default function Events() {
 
                       <button
                         type="button"
-                        className="text-white bg-[#7F5539] border border-[#7F5539] focus:outline-none   font-medium rounded-lg text-[18px] px-8 py-2.5 w-full mb-2"
+                        className="text-white bg-[#7F5539] border border-[#7F5539] focus:outline-none   font-medium rounded-lg lg:text-[18px] lg:px-8 lg:py-3.5 mb-2 px-4 py-2 text-[14px]"
                       >
                         View details
                       </button>
@@ -89,7 +89,7 @@ export default function Events() {
 
                       <button
                         type="button"
-                        className="text-white bg-[#7F5539] border border-[#7F5539] focus:outline-none   font-medium rounded-lg text-[18px] px-8 py-2.5 w-full mb-2"
+                        className="text-white bg-[#7F5539] border border-[#7F5539] focus:outline-none   font-medium rounded-lg lg:text-[18px] lg:px-8 lg:py-3.5 mb-2 px-4 py-2 text-[14px]"
                       >
                         View details
                       </button>
@@ -120,7 +120,7 @@ export default function Events() {
 
                       <button
                         type="button"
-                        className="text-white bg-[#7F5539] border border-[#7F5539] focus:outline-none   font-medium rounded-lg text-[18px] px-8 py-2.5 w-full mb-2"
+                        className="text-white bg-[#7F5539] border border-[#7F5539] focus:outline-none   font-medium rounded-lg lg:text-[18px] lg:px-8 lg:py-3.5 mb-2 px-4 py-2 text-[14px]"
                       >
                         View details
                       </button>
@@ -151,7 +151,7 @@ export default function Events() {
 
                       <button
                         type="button"
-                        className="text-white bg-[#7F5539] border border-[#7F5539] focus:outline-none   font-medium rounded-lg text-[18px] px-8 py-2.5 w-full mb-2"
+                        className="text-white bg-[#7F5539] border border-[#7F5539] focus:outline-none   font-medium rounded-lg lg:text-[18px] lg:px-8 lg:py-3.5 mb-2 px-4 py-2 text-[14px]"
                       >
                         View details
                       </button>
@@ -182,7 +182,7 @@ export default function Events() {
 
                       <button
                         type="button"
-                        className="text-white bg-[#7F5539] border border-[#7F5539] focus:outline-none   font-medium rounded-lg text-[18px] px-8 py-2.5 w-full mb-2"
+                        className="text-white bg-[#7F5539] border border-[#7F5539] focus:outline-none   font-medium rounded-lg lg:text-[18px] lg:px-8 lg:py-3.5 mb-2 px-4 py-2 text-[14px]"
                       >
                         View details
                       </button>
