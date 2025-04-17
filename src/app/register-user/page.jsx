@@ -14,7 +14,7 @@ export default function registeruser() {
                   <h2 className="text-xl font-semibold mb-2">
                     Personal Information
                   </h2>
-                  <form className="max-w-[360px] w-full">
+                  <form className="max-w-[400px] w-full">
                     <div className="mb-3">
                       <label>First Full Name (as on passport)</label>
                       <input
