@@ -96,4 +96,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 
- 
+.register-banner{
+  background-image: url('../images//banner.jpg');
+}

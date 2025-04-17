@@ -83,23 +83,26 @@ export default function SignUp() {
                   </div>
 
                   <div className="">
-                    <button
-                      type="submit"
-                      className="text-white justify-center   w-full flex items-center   bg-[#7F5539]  font-medium rounded-lg text-sm px-5 py-3.5 text-center mb-3"
-                    >
-                      Sign Up
-                    </button>
-
-                    <button
-                      type="submit"
-                      className=" justify-center   w-full flex items-center bg-[#ffffff]  font-medium rounded-lg text-sm px-5 py-3.5 text-center mb-2 border border-black gap-2"
-                    >
-                      <span>
-                        {" "}
-                        <Image src={google} width={18} alt="google" />{" "}
-                      </span>{" "}
-                      Continue with Google
-                    </button>
+                    <Link href="/register-user" passHref legacyBehavior>
+                      <button
+                        type="submit"
+                        className="text-white justify-center   w-full flex items-center   bg-[#7F5539]  font-medium rounded-lg text-sm px-5 py-3.5 text-center mb-3"
+                      >
+                        Sign Up
+                      </button>
+                    </Link>
+                    <Link href="/register-user" passHref legacyBehavior>
+                      <button
+                        type="submit"
+                        className=" justify-center   w-full flex items-center bg-[#ffffff]  font-medium rounded-lg text-sm px-5 py-3.5 text-center mb-2 border border-black gap-2"
+                      >
+                        <span>
+                          {" "}
+                          <Image src={google} width={18} alt="google" />{" "}
+                        </span>{" "}
+                        Continue with Google
+                      </button>
+                    </Link>
                   </div>
                   <p className="text-sm font-light text-gray-500">
                     You have an account?{" "}
