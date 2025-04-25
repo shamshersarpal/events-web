@@ -99,3 +99,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .register-banner{
   background-image: url('../images//banner.jpg');
 }
+
+.details-bg{
+  background-image: url('../images/shadowbox.png');
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+}
