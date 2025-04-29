@@ -4,8 +4,9 @@ import Events from "@/components/Events";
 import FindPerfecttrip from "@/components/FindPerfecttrip";
 import Footer from "@/components/Footer";
 import Fun from "@/components/Fun";
-import Header from "@/components/Header";
-import HeroSection from "@/components/HeroSection";
+import Headerv2 from "@/components/Headerv2";
+import HeaderTwo from "@/components/HeaderTwo";
+import HeroSectionv2 from "@/components/HeroSectionv2";
 import HowitWork from "@/components/HowitWork";
 import InfoSection from "@/components/InfoSection";
 import PopularAdventures from "@/components/PopularAdventures";
@@ -18,8 +19,8 @@ export default function Home() {
   return (
     <>
     
-    <Header/>
-    <HeroSection/>
+    <Headerv2/>
+    <HeroSectionv2/>
     <TourSlider/>
     <HowitWork/>
     <Fun/>

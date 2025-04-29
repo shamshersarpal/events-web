@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import Footer from "@/components/Footer";
-import Header from "@/components/Header";
+import Header from "@/components/Headerv2";
 import Image from "next/image";
 import google from "@/images/google.svg";
 
@@ -24,9 +24,9 @@ export default function SignUp() {
       <Header />
       <main>
         <section className="bg-gray-50 login-page relative">
-          <div className="absolute inset-0 bg-black opacity-60 "></div>
+          <div className="overlyhero"></div>
           <div className="relative z-10 flex flex-col items-center justify-center px-6  lg:py-0">
-            <div className="w-full bg-white rounded-lg shadow md:mt-0 sm:max-w-md xl:p-0">
+            <div className="w-full bg-white/80 rounded-lg shadow md:mt-0 sm:max-w-md xl:p-0">
               <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
                 <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl">
                   Sign Up
@@ -86,7 +86,7 @@ export default function SignUp() {
                     <Link href="/register-user" passHref legacyBehavior>
                       <button
                         type="submit"
-                        className="text-white justify-center   w-full flex items-center   bg-[#7F5539]  font-medium rounded-lg text-sm px-5 py-3.5 text-center mb-3"
+                        className="text-dark justify-center   w-full flex items-center   bg-[#ffa858]  font-medium rounded-lg text-sm px-5 py-3.5 text-center mb-3"
                       >
                         Sign Up
                       </button>
