@@ -491,7 +491,7 @@ export default function eventdetails() {
                           type="button"
                           className="text-white bg-[#7F5539] border border-[#7F5539] focus:outline-none   font-medium rounded-lg lg:text-[18px] lg:px-8 lg:py-3.5 mb-2 px-4 py-2 text-[14px] mt-4 w-full"
                         >
-                          Book Now
+                          Select Dates
                         </button>
                       </Link>
                     </div>

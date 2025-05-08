@@ -56,7 +56,6 @@ export default function dashboard() {
                       </div>
                     </div>
                   </div>
-
                   <div className="bg-white mx-auto shadow-sm p-5 border rounded-lg w-full h-full border-gray-200">
                     <div className="">
                       <h2 className="text-gray-400 text-sm">Spending Money</h2>
