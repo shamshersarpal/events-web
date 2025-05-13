@@ -132,6 +132,11 @@ export default function Header() {
                 </Link>
               </li>
               <li>
+                <Link href="all-trips" passHref legacyBehavior>
+                  <a className="block py-2 px-3 text-gray-800">All Trips</a>
+                </Link>
+              </li>
+              <li>
                 <Link href="#" passHref legacyBehavior>
                   <a className="block py-2 px-3 text-gray-800">Profile</a>
                 </Link>
