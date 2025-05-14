@@ -37,7 +37,7 @@ export default function Header() {
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 py-1">
             <Link href="/" passHref legacyBehavior>
               <a className="flex items-center space-x-3 rtl:space-x-reverse">
-                <Image className="lg:w-[310px] w-[122px]" src={logo} alt="" />
+                <Image className="lg:w-[210px] w-[122px]" src={logo} alt="" />
               </a>
             </Link>
             <div className="flex space-x-3 rtl:space-x-reverse">
