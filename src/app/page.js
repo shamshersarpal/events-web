@@ -14,13 +14,14 @@ import Subscript from "@/components/Subscript";
 import Testimonials from "@/components/Testimonials";
 import TourSlider from "@/components/Tourdestination";  
 import Image from "next/image";
+import HeroSectionv3 from "@/components/HeroSectionv3";
 
 export default function Home() {
   return (
     <>
     
     <Headerv2/>
-    <HeroSectionv2/>
+    <HeroSectionv3/> 
     <TourSlider/>
     <HowitWork/>
     <Fun/>
