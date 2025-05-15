@@ -6,27 +6,43 @@ export default function herov2() {
       <section className="mainHero relative">
         <div className="overlyhero"></div>
         <div className="max-w-screen-xl mx-auto lg:px-0 px-4 relative">
-          <div className="lg:py-40 lg:pt-52 pt-48 py-20 text-center mx-w-[610px]">
-            <h1 className="lg:text-[32px] text-[25px] font-[600] leading-none mb-8 text-black">
+          <div className="lg:py-40 lg:pt-52 pt-48 py-20 text-left mx-w-[610px]">
+            <h1 className="lg:text-[22px] text-[25px] font-[500] leading-none mb-4 text-white">
               YOUR SOCIAL PREREQUISITE
             </h1>
-            <h1 className="lg:text-[35px] text-[18px] font-[600] leading-none mb-2 text-gray-950">
+            <h1 className="lg:text-[45px] text-[18px] font-[600] leading-none mb-2 text-white">
               MEET OTHER GOING TO THE{" "}
               <span className="text-[#fea759]">SAME </span>
             </h1>
-            <h1 className="lg:text-[35px] text-[18px] text-center font-[600] leading-none mb-2 text-gray-950 cursor-pointer">
-              <u className="">CONCERT</u> <u>VENU</u> <u className="text-gray-950/60">GAME</u>
+            <h1 className="lg:text-[45px] text-[18px] text-left font-[600] leading-none mb-2 text-white cursor-pointer">
+              <u className="">CONCERT</u> <u>VENU</u>{" "}
+              <u className="text-white">GAME</u>
             </h1>
+
+            <div className="  lg:text-[18px] text-[18px] mt-5  font-[500] leading-none mb-2 text-white">
+              CURATED EVENTS | HANDPICKED GROUPS SCAN TO PREGAME
+            </div>
+
+            <div className=" mt-5">
+              <Link href="all-trips" passHref legacyBehavior>
+                <button
+                  type="button"
+                  className="text-gray-900 bg-[#fea956] border border-[#fea956] focus:outline-none hover:bg-[#f09d4a]  focus:ring-4 focus:ring-gray-100 font-medium rounded-lg lg:text-[18px] lg:px-8 lg:py-3.5 mb-2 px-4 py-2 text-[14px]"
+                >
+                  Browse Trip
+                </button>
+              </Link>
+            </div>
           </div>
 
-          <div className="flex items-center justify-between flex-wrap">
-            <div className="lg:text-[25px] text-[18px]   font-[600] leading-none mb-2 text-gray-950 flex gap-1">
+          <div className="flex items-center justify-between flex-wrap pb-5">
+            <div className="lg:text-[15px] text-[15px] font-[500] leading-none text-white flex gap-1 items-center">
               <svg
-                className="w-10 h-10  "
+                className="w-6 h-6"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
-                width={24}
-                height={24}
+                width={20}
+                height={20}
                 fill="none"
                 viewBox="0 0 24 24"
               >
@@ -37,17 +53,25 @@ export default function herov2() {
                   clipRule="evenodd"
                 />
               </svg>
-              <br></br>
 
-              <span>pregamebydash</span>
+              <span className="relative top-[-2px]"> pregamebydash</span>
             </div>
-            <div className="flex flex-wrap gap-1 my-5 px-4 justify-center lg:text-[25px] text-[18px]   font-[600] leading-none mb-2 text-gray-950 text-center">
-              CURATED EVENTS | HANDPICKED GROUPS <br></br>
-              SCAN TO PREGAME
-            </div>
-
-            <div className="lg:text-[25px] text-[18px]   font-[600] leading-none mb-2 text-gray-950 flex gap-1">
-              <br></br>
+            <div className="lg:text-[15px] text-[15px] font-[500] leading-none text-white flex gap-1 items-center">
+              <svg
+                className="w-5 h-5  "
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width={24}
+                height={24}
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M8.64 4.737A7.97 7.97 0 0 1 12 4a7.997 7.997 0 0 1 6.933 4.006h-.738c-.65 0-1.177.25-1.177.9 0 .33 0 2.04-2.026 2.008-1.972 0-1.972-1.732-1.972-2.008 0-1.429-.787-1.65-1.752-1.923-.374-.105-.774-.218-1.166-.411-1.004-.497-1.347-1.183-1.461-1.835ZM6 4a10.06 10.06 0 0 0-2.812 3.27A9.956 9.956 0 0 0 2 12c0 5.289 4.106 9.619 9.304 9.976l.054.004a10.12 10.12 0 0 0 1.155.007h.002a10.024 10.024 0 0 0 1.5-.19 9.925 9.925 0 0 0 2.259-.754 10.041 10.041 0 0 0 4.987-5.263A9.917 9.917 0 0 0 22 12a10.025 10.025 0 0 0-.315-2.5A10.001 10.001 0 0 0 12 2a9.964 9.964 0 0 0-6 2Zm13.372 11.113a2.575 2.575 0 0 0-.75-.112h-.217A3.405 3.405 0 0 0 15 18.405v1.014a8.027 8.027 0 0 0 4.372-4.307ZM12.114 20H12A8 8 0 0 1 5.1 7.95c.95.541 1.421 1.537 1.835 2.415.209.441.403.853.637 1.162.54.712 1.063 1.019 1.591 1.328.52.305 1.047.613 1.6 1.316 1.44 1.825 1.419 4.366 1.35 5.828Z"
+                  clipRule="evenodd"
+                />
+              </svg>
 
               <span>pregamebydash.com</span>
             </div>
