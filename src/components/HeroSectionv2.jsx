@@ -15,7 +15,7 @@ export default function herov2() {
               <span className="text-[#fea759]">SAME </span>
             </h1>
             <h1 className="lg:text-[35px] text-[18px] text-center font-[600] leading-none mb-2 text-gray-950 cursor-pointer">
-              <u className="">CONCERT</u> <u>VENU</u> <u>GAME</u>
+              <u className="">CONCERT</u> <u>VENU</u> <u className="text-gray-950/60">GAME</u>
             </h1>
           </div>
 
