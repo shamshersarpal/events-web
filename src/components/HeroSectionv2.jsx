@@ -22,17 +22,6 @@ export default function herov2() {
             <div className="  lg:text-[18px] text-[18px] mt-5  font-[500] leading-none mb-2 text-white">
               CURATED EVENTS | HANDPICKED GROUPS SCAN TO PREGAME
             </div>
-
-            <div className=" mt-5">
-              <Link href="all-trips" passHref legacyBehavior>
-                <button
-                  type="button"
-                  className="text-gray-900 bg-[#fea956] border border-[#fea956] focus:outline-none hover:bg-[#f09d4a]  focus:ring-4 focus:ring-gray-100 font-medium rounded-lg lg:text-[18px] lg:px-8 lg:py-3.5 mb-2 px-4 py-2 text-[14px]"
-                >
-                  Browse Trip
-                </button>
-              </Link>
-            </div>
           </div>
 
           <div className="flex items-center justify-between flex-wrap pb-5">
